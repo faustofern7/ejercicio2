@@ -1,7 +1,7 @@
 <!-- Proyect Logo -->
 <div align= "center">
     <a href='https://ejercicio2-tp-dom.netlify.app/'>
-    <img src='./img/logo.jpg' alt='RollingCode' width='300' />
+    <img src='./img/images.png' alt='RollingCode' width='300' />
     </a>
     <h1>Trabajo Practico N°5</h1>
     <p>
