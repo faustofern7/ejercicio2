@@ -82,17 +82,17 @@
             <form>
               <div class="form-group">
                 <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                <input required type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
               </div>
         
               <div class="form-group">
                 <label for="edad">Edad:</label>
-                <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad">
+                <input required type="number" class="form-control" id="edad" placeholder="Ingrese su edad">
               </div>
         
               <div class="form-group">
                 <label for="dni">DNI:</label>
-                <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI">
+                <input required type="text" class="form-control" id="dni" placeholder="Ingrese su DNI">
               </div>
         
               <div class="form-group">
@@ -105,20 +105,26 @@
         
               <div class="form-group">
                 <label for="peso">Peso:</label>
-                <input type="number" class="form-control" id="peso" placeholder="Ingrese su peso">
+                <input required type="number" class="form-control" id="peso" placeholder="Ingrese su peso">
               </div>
         
               <div class="form-group">
                 <label for="altura">Altura:</label>
-                <input type="number" class="form-control" id="altura" placeholder="Ingrese su altura">
+                <input required type="number" class="form-control" id="altura" placeholder="Ingrese su altura">
               </div>
         
               <div class="form-group">
                 <label for="anio-nacimiento">Año de nacimiento:</label>
-                <input type="number" class="form-control" id="anio-nacimiento" placeholder="Ingrese su año de nacimiento">
+                <input required type="number" class="form-control" id="anio-nacimiento" placeholder="Ingrese su año de nacimiento">
               </div>
         
+              <button type="submit" class="btn btn-danger mt-4">Crear persona</button>
+             <div style="display: none;">
               <button type="submit" class="btn btn-primary mt-4">Mostrar generación</button>
+              <button type="submit" class="btn btn-primary mt-4">Es mayor de edad?</button>
+            </div>
+             
+
             </form>
           </div>
 
@@ -134,5 +140,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/logica2.js"></script>
   </body>
 </html>
