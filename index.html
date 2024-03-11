@@ -78,8 +78,9 @@
     <main class="bg-secondary">
          
         <div class="container pt-5">
-            <h2>Introduce las propiedades de la persona: </h2>
-            <form>
+            <form id="ocultarFormulario" >
+              <h2>Introduce las propiedades de la persona: </h2>
+
               <div class="form-group">
                 <label for="nombre">Nombre:</label>
                 <input required type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
@@ -118,15 +119,18 @@
                 <input required type="number" class="form-control" id="anio-nacimiento" placeholder="Ingrese su año de nacimiento">
               </div>
         
-              <button type="submit" class="btn btn-danger mt-4">Crear persona</button>
-             <div style="display: none;">
-              <button type="submit" class="btn btn-primary mt-4">Mostrar generación</button>
-              <button type="submit" class="btn btn-primary mt-4">Es mayor de edad?</button>
-            </div>
+              <button id="botonCrear"  class="btn btn-danger mt-4">Crear persona</button>
              
-
+              
             </form>
-          </div>
+              <div class="text-center">
+                <button style="display: none;" id="mostrarBotonGeneracion" type="submit" class="btn btn-primary mt-4">Mostrar generación</button>
+                <button style="display: none;" id="mostrarBotonEdad" type="submit" class="btn btn-primary mt-4">Es mayor de edad?</button>
+                <button style="display: none;" id="mostrarBotonDatos" type="submit" class="btn btn-primary mt-4">Mostrar datos</button>
+
+              </div>
+
+            </div>
 
           
            
